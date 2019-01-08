@@ -5,5 +5,5 @@ Post URL is currently hardcoded: http://localhost:8080/music_data/<br>
 TODO: configurable url / port
 <br>
 <br>
-Installing: go to chrome://extensions/, enable developer mode, load unpacked extension by pointing to the src folder in this repo.
+Install: go to chrome://extensions/, enable developer mode, load unpacked extension by pointing to the src folder in this repo.
 </p>
