@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Google Play Music - currently playing",
-  "version": "0.1",
+  "version": "1.0",
   "description": "Extracts the currently playing Song and Artist info from Google Play Music",
   "browser_action": {
     "default_title": "Google Play currently playing"

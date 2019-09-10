@@ -15,7 +15,7 @@ setInterval(function() {
 	}
 
 	let player_artist = document.getElementById('player-artist');
-	if (cur_playing_title != null) {
+	if (player_artist != null) {
 		artist = player_artist.innerText;
 	}
 
