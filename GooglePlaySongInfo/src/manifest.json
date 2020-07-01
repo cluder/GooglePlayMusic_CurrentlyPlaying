@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
   "name": "Google Play Music - currently playing",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Extracts the currently playing Song and Artist info from Google Play Music",
   "browser_action": {
     "default_title": "Google Play currently playing"
   },
    "content_scripts": [
     {
-      "matches": ["https://play.google.com/music/*"],
+      "matches": ["https://play.google.com/music/*", "https://music.youtube.com/*"],
       "js": ["content.js"],
 	  "css": ["content.css"],
 	  "all_frames": true
