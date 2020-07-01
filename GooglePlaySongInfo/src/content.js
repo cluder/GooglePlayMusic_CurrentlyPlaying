@@ -43,6 +43,8 @@ setInterval(function() {
 				isPlaying = 'false';
 			}
 		}
+	} else {
+		return;
 	}
 
 	if (cur_playing_title != null) {

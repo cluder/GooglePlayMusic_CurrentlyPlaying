@@ -8,7 +8,7 @@
   },
    "content_scripts": [
     {
-      "matches": ["https://play.google.com/music/", "https://music.youtube.com/"],
+      "matches": ["https://play.google.com/music/*", "https://music.youtube.com/*"],
       "js": ["content.js"],
 	  "css": ["content.css"],
 	  "all_frames": true
