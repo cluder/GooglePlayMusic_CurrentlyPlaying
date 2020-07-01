@@ -14,7 +14,7 @@ setInterval(function() {
     var play_pause_button;
 
     function isYouTube() {return window.location.toString().includes("music.youtube");}
-    function isPlayMusic() {return url.includes("play.google");}
+    function isPlayMusic() {return window.location.toString().includes("play.google.com");}
 
 	if (isYouTube()) {
 		var complexString = document.getElementsByClassName("ytmusic-player-bar complex-string")[0];
